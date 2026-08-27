@@ -1,0 +1,269 @@
+🔍 PRINCIPAIS MELHORIAS (VISÃO GERAL)
+1. 🔥 Problema principal: excesso de texto em alguns pontos
+
+Tem partes que estão muito “documentação” e pouco “uso real”.
+
+💡 Sugestão:
+
+quebrar mais conteúdo com:
+prints
+gifs
+exemplos reais
+
+👉 Regra de ouro:
+
+Se o estagiário precisa imaginar → faltou imagem
+Se ele só lê → esquece rápido
+
+2. 🎯 Falta de contexto real (muito importante)
+
+Você explica o que é, mas às vezes não mostra:
+👉 “onde isso aparece no dia a dia”
+
+Exemplo:
+
+Pipeline → ok explicado
+MAS → não mostra onde ele vê isso no monitoramento
+
+💡 Sugestão:
+Adicionar sempre:
+
+📌 Onde você vai ver isso:
+📌 Quando isso aparece:
+3. 🧭 Falta de conexão entre etapas
+
+As etapas são boas isoladamente, mas pouco conectadas.
+
+💡 Exemplo:
+
+Glossário fala de T1
+Monitoramento usa T1
+👉 mas não reforça
+
+👉 Solução:
+Adicionar frases tipo:
+
+“Você já viu esse termo no Glossário 👀”
+
+🖼️ REVISÃO DE IMAGENS E GIFS (MUITO IMPORTANTE)
+
+Agora a parte que você pediu mais detalhe 👇
+
+📍 1. Jornada do Estagiário
+🔧 Melhorias:
+Tela inicial → OK
+Sidebar → OK
+🔥 FALTA:
+
+👉 GIF de navegação
+
+💡 Ideal:
+
+GIF clicando:
+começar jornada
+avançar etapa
+sidebar abrindo
+
+👉 Isso reduz MUITO dúvida inicial
+
+📍 2. Conhecendo a Empresa
+❗ Problema:
+
+Está muito “placeholder”
+
+📸 Sugestões de imagens:
+organograma simples (times)
+print do Teams com canais
+exemplo real de squad
+❌ Não usar:
+imagens genéricas de escritório
+📍 3. Glossário
+
+👉 Aqui você acertou MUITO.
+
+🔥 Melhoria:
+
+Adicionar 1 print real tipo:
+
+dashboard com T1/T2
+pipeline com nome estranho
+
+💡 Objetivo:
+“isso aqui é onde você vai ver essas siglas”
+
+📍 4. Arquitetura
+❗ Problema:
+
+Está vazio / pouco explicado
+
+📸 O que colocar:
+diagrama real (mesmo que simplificado)
+
+fluxo:
+
+Fonte → Data Factory → Databricks → Datalake → BI
+🔥 Ideal:
+
+👉 GIF passando pelas camadas (ou imagem com setas)
+
+📍 5. Origem dos Dados
+📸 Cubos (Power BI)
+
+✔ colocar:
+
+print de workspace
+dataset aberto
+📸 Tabelas / Pipelines
+
+✔ colocar:
+
+Databricks notebook real
+ADF pipeline
+🎥 GIF?
+
+👉 SIM para:
+
+abrir notebook
+rodar célula
+executar pipeline
+
+👉 NÃO precisa GIF para:
+
+explicação conceitual
+📍 6. Ambientes
+❗ Falta visual
+📸 Sugestão:
+print com DEV / HML / PROD
+ou exemplo de URL
+
+💡 Exemplo:
+
+adb-xxx-dev
+adb-xxx-prod
+📍 7. Plataformas
+
+Essa parte está BOA.
+
+🔥 Melhorias por ferramenta:
+Power BI
+
+👉 GIF ideal:
+
+abrir relatório
+filtrar
+mudar visual
+Databricks
+
+👉 GIF obrigatório:
+
+rodar notebook
+cluster startando
+DAX Studio / Tabular
+
+👉 só imagem já resolve
+
+📍 8. Acessos
+🔥 Muito bom já
+Sugestão:
+
+👉 adicionar status visual:
+
+🔴 não tenho acesso
+🟡 solicitado
+🟢 ok
+📍 9. GitHub
+📸 Melhorias:
+print real de PR
+print de commit
+🎥 GIF:
+
+👉 MUITO BOM colocar:
+
+criando branch
+abrindo PR
+📍 10. Monitoramento (UMA DAS MELHORES PARTES)
+
+Sério, essa parte está forte.
+
+🔥 Melhorias:
+Filtro crítico
+
+👉 GIF perfeito (já tem ideia boa)
+
+Pipeline expandindo
+
+👉 GIF MUITO BOM
+
+KPI
+
+👉 imagem ok (não precisa GIF)
+
+📍 11. Azure DevOps (CardOps)
+🔥 Aqui é ouro pra estagiário
+🎥 GIFs ideais:
+mover card no board
+criar card
+mudar status
+
+👉 Isso vai ajudar MUITO
+
+📍 12. ServiceNow
+
+Essa parte está MUITO completa.
+
+🔥 Melhorias:
+Fluxo
+
+👉 transformar em:
+
+GIF contínuo (melhor)
+OU
+passo a passo com prints numerados
+Anexos
+
+👉 GIF mostrando upload
+
+📍 13. Arautos / Workspace
+📸 Sugestões:
+print real das pastas
+print de BI aberto
+
+👉 Aqui imagem > texto
+
+📍 14. Plataformas Azure
+❗ Muito conceitual
+🔥 Melhor:
+colocar 1 print por ferramenta
+
+Ex:
+
+Synapse → tela SQL
+ADF → pipeline
+Databricks → notebook
+🚨 PONTOS CRÍTICOS (SE FOSSE PRIORIDADE)
+
+Se você quiser evoluir rápido, foque nisso:
+
+1. 🎥 Adicionar GIFs em:
+Navegação inicial
+Databricks
+DevOps
+ServiceNow
+2. 📸 Colocar prints REAIS (não genéricos)
+
+Isso muda o nível do projeto absurdamente.
+
+3. 🔗 Conectar conteúdo
+
+Ex:
+
+“Isso aqui impacta o monitoramento que você verá na etapa X”
+
+4. 🧪 Criar mini exemplos reais
+
+Ex:
+
+Exemplo:
+Pipeline Entrega_OTIF falhou → aparece no monitoramento → vira chamado
+
+👉 Isso é OURO pra aprendizado

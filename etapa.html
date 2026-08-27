@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APJ – Etapas</title>
+  <script>
+    (function () {
+      const darkMode = localStorage.getItem("darkMode");
+      if (darkMode === "on") {
+        document.addEventListener("DOMContentLoaded", () => {
+          document.body.classList.add("dark-mode");
+        });
+      }
+    })();
+  </script>
+  <link rel="shortcut icon" type="imagex/png" href="assets/logotop.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <button onclick="toggleSidebar()">☰ Jornada</button>
+    <button onclick="goHome()">🏠 Início</button>
+    <h3>APJ – Jornada do Estagiário</h3>
+    <button onclick="toggleDarkMode()" id="darkToggle" aria-label="Ativar modo escuro">🌙</button>
+
+  </header>
+
+  <div id="layout">
+
+    <div id="sidebar">
+
+      <!-- Jornada APJ -->
+      <div class="sidebar-section">
+        <div class="sidebar-header" onclick="toggleSection('jornada')">
+          📘 Jornada APJ
+          <span id="arrow-jornada">▶</span>
+        </div>
+
+        <!-- COMEÇA FECHADA -->
+        <div id="jornada-content" class="sidebar-content collapsed"></div>
+      </div>
+
+      <!-- Links Úteis -->
+      <div class="sidebar-section">
+        <div class="sidebar-header" onclick="toggleSection('links')">
+          🔗 Links Úteis
+          <span id="arrow-links">▼</span>
+        </div>
+
+        <!-- COMEÇA ABERTA -->
+        <div id="links-content" class="sidebar-content"></div>
+      </div>
+
+    </div>
+
+    <div id="content">
+      <div id="section" class="section"></div>
+    </div>
+
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

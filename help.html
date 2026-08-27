@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APJ – Ajuda</title>
+  <script>
+    (function () {
+      const darkMode = localStorage.getItem("darkMode");
+      if (darkMode === "on") {
+        document.addEventListener("DOMContentLoaded", () => {
+          document.body.classList.add("dark-mode");
+        });
+      }
+    })();
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/help.css">
+  <link rel="shortcut icon" type="imagex/png" href="assets/logotop.png">
+</head>
+
+<body>
+
+  <header>
+    <button onclick="goHome()">🏠 Início</button>
+    <h3>APJ – Jornada do Estagiário</h3>
+    <button onclick="toggleDarkMode()" id="darkToggle" aria-label="Ativar modo escuro">🌙</button>
+  </header>
+
+  <div id="layout">
+    <div id="content">
+
+      <!-- HERO -->
+      <div class="help-hero">
+        <div class="hero-badge">❔ Central de Ajuda</div>
+        <h1>Como podemos <span>te ajudar</span>?</h1>
+        <p>Encontre respostas rápidas, dicas de uso e orientações para aproveitar ao máximo a plataforma APJ.</p>
+      </div>
+
+      <!-- BODY -->
+      <div class="help-body">
+
+        <!-- DICAS RÁPIDAS -->
+        <div>
+          <div class="section-label"><div class="dot"></div><h2>Dicas rápidas</h2></div>
+          <div class="tips-grid">
+            <div class="tip-card">
+              <div class="tip-icon">▶️</div>
+              <h3>Como começar</h3>
+              <p>Clique em "Começar Jornada" na tela inicial e siga os módulos em sequência.</p>
+            </div>
+            <div class="tip-card">
+              <div class="tip-icon">💾</div>
+              <h3>Progresso salvo</h3>
+              <p>Seu avanço é salvo automaticamente. Feche e abra sem medo de perder o progresso.</p>
+            </div>
+            <div class="tip-card">
+              <div class="tip-icon">🌙</div>
+              <h3>Modo escuro</h3>
+              <p>Use o botão 🌙 no canto superior direito para ativar ou desativar o modo escuro.</p>
+            </div>
+            <div class="tip-card">
+              <div class="tip-icon">🔗</div>
+              <h3>Links úteis</h3>
+              <p>No menu lateral você encontra links rápidos para as principais plataformas da equipe.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ -->
+        <div>
+          <div class="section-label"><div class="dot"></div><h2>Perguntas frequentes</h2></div>
+          <div class="faq-list">
+
+            <div class="faq-item" onclick="toggleFaq(this)">
+              <div class="faq-question">
+                <span>Posso acessar o APJ de qualquer lugar?</span>
+                <div class="faq-arrow">▾</div>
+              </div>
+              <div class="faq-answer">Sim! O APJ roda direto no navegador, sem instalação. Acesse de qualquer computador com o link do projeto.</div>
+            </div>
+
+            <!--<div class="faq-item" onclick="toggleFaq(this)">
+              <div class="faq-question">
+                <span>Posso usar no celular?</span>
+                <div class="faq-arrow">▾</div>
+              </div>
+              <div class="faq-answer">Pode! A plataforma é responsiva e funciona no navegador mobile. Para a melhor experiência, recomendamos o uso no computador.</div>
+            </div>-->
+
+            <div class="faq-item" onclick="toggleFaq(this)">
+              <div class="faq-question">
+                <span>Os conteúdos são atualizados com frequência?</span>
+                <div class="faq-arrow">▾</div>
+              </div>
+              <div class="faq-answer">Sim. O time responsável pelo APJ atualiza os módulos conforme os processos e ferramentas da equipe evoluem. Sempre que houver novidades relevantes, o conteúdo será revisado.</div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- CONTATO -->
+        <div class="contact-box">
+          <div class="contact-icon">💬</div>
+          <div>
+            <h3>Ainda com dúvidas?</h3>
+            <p>Fale com o seu supervisor ou com o responsável pelo onboarding da equipe. Eles podem te orientar e, se necessário, atualizar o conteúdo do APJ com a sua dúvida.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+  <script>
+    function toggleFaq(el) {
+      const isOpen = el.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!isOpen) el.classList.add('open');
+    }
+  </script>
+</body>
+
+</html>

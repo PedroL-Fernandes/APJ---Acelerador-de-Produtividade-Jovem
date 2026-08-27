@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APJ – Sobre</title>
+  <script>
+    (function () {
+      const darkMode = localStorage.getItem("darkMode");
+      if (darkMode === "on") {
+        document.addEventListener("DOMContentLoaded", () => {
+          document.body.classList.add("dark-mode");
+        });
+      }
+    })();
+  </script>
+  <link rel="shortcut icon" type="imagex/png" href="assets/logotop.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/about.css">
+</head>
+
+<body>
+
+  <header>
+    <button onclick="goHome()">🏠 Início</button>
+    <h3>APJ – Jornada do Estagiário</h3>
+    <button onclick="toggleDarkMode()" id="darkToggle" aria-label="Ativar modo escuro">🌙</button>
+  </header>
+
+  <div id="layout">
+    <div id="content">
+
+      <!-- HERO -->
+      <div class="about-hero">
+        <div class="hero-badge">📋 Sobre o Projeto</div>
+        <h1>O que é o <span>APJ</span>?</h1>
+        <p>O Acelerador de Produtividade Jovem é uma plataforma interna de documentação criada para guiar estagiários desde o primeiro dia, com conteúdo claro, progressivo e prático.</p>
+      </div>
+
+      <!-- BODY -->
+      <div class="about-body">
+
+        <!-- O QUE É -->
+        <div class="about-intro">
+          <div class="section-label"><div class="dot"></div><h2>O que é o projeto</h2></div>
+          <p>O APJ é organizado como uma <strong>Wiki / Site Interno</strong> dividido em seções temáticas, cobrindo tudo o que um estagiário precisa saber para performar bem desde o início.</p>
+          <p>O conteúdo é escrito em linguagem clara e objetiva, partindo do básico até o avançado — sem jargão desnecessário, sem enrolação.</p>
+        </div>
+
+        <!-- PILARES -->
+        <div>
+          <div class="section-label"><div class="dot"></div><h2>O que você encontra aqui</h2></div>
+          <div class="pillars-grid">
+            <div class="pillar-card">
+              <div class="pillar-icon">🗺️</div>
+              <h3>Jornada do Estagiário</h3>
+              <p>Passo a passo do onboarding até a execução autônoma.</p>
+            </div>
+            <div class="pillar-card">
+              <div class="pillar-icon">💻</div>
+              <h3>Plataformas</h3>
+              <p>Guias das ferramentas usadas no dia a dia da equipe.</p>
+            </div>
+            <div class="pillar-card">
+              <div class="pillar-icon">⚙️</div>
+              <h3>Processos</h3>
+              <p>Como as coisas funcionam: fluxos, aprovações e rotinas.</p>
+            </div>
+            <div class="pillar-card">
+              <div class="pillar-icon">✅</div>
+              <h3>Boas Práticas</h3>
+              <p>O que funciona, o que evitar e como entregar com qualidade.</p>
+            </div>
+            <div class="pillar-card">
+              <div class="pillar-icon">🚀</div>
+              <h3>Exemplos Práticos</h3>
+              <p>Casos reais e templates prontos para usar.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- COMO FUNCIONA -->
+        <div>
+          <div class="section-label"><div class="dot"></div><h2>Como funciona a jornada</h2></div>
+          <div class="steps">
+            <div class="step-item">
+              <div class="step-num">1</div>
+              <div class="step-text">
+                <h4>Acesse a Jornada</h4>
+                <p>Clique em "Começar Jornada" na tela inicial e siga os módulos em ordem.</p>
+              </div>
+            </div>
+            <div class="step-item">
+              <div class="step-num">2</div>
+              <div class="step-text">
+                <h4>Leia e pratique</h4>
+                <p>Cada seção tem explicações, checklists e exemplos práticos para fixar o conteúdo.</p>
+              </div>
+            </div>
+            <div class="step-item">
+              <div class="step-num">3</div>
+              <div class="step-text">
+                <h4>Marque seu progresso</h4>
+                <p>Conforme avança, seu progresso é salvo automaticamente para você retomar de onde parou.</p>
+              </div>
+            </div>
+            <div class="step-item">
+              <div class="step-num">4</div>
+              <div class="step-text">
+                <h4>Consulte quando precisar</h4>
+                <p>Use os links úteis e seções como referência rápida no dia a dia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PÚBLICO ALVO -->
+        <div class="audience-box">
+          <div class="audience-icon">🎯</div>
+          <div>
+            <h3>Para quem é o APJ?</h3>
+            <p>Feito para <strong>estagiários em início de jornada</strong> que precisam se ambientar rápido, entender os processos da equipe e começar a entregar valor sem depender de alguém para cada dúvida.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>

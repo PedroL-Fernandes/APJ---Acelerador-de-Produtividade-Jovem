@@ -1,0 +1,213 @@
+Jornada do Estagiário
+    Bem-vindo à Jornada APJ
+    Por que criamos o APJ: O que é, Porque existe
+    Como funciona a sua Jornada
+    Botões e Navegação
+    Barra Lateral do APJ
+    Barra Lateral de Links Úteis
+    Checklist, Acessos e Controle
+    Não se preocupe se não entender tudo
+    Pronto pra começar?
+
+Conhecendo a Empresa
+    O que é a Ambev
+    Time Ambev
+    Como o time da ambev se conecta com as outras equipes
+    Papel do Estagiário e o que se espera
+    Dia a Dia do time
+    Como o APJ ajuda nisso
+
+Origem dos Dados
+    Services & Cubos
+    Brewdata
+    Pipelines
+    Tabelas
+    Engenharia Reversa
+
+Ambientes
+    Dev & Non-Prod
+    Prod
+
+Plataformas //novo: Ecossistema de Dados || Visão conceitual || Fluxo lógico
+    //Como as plataformas se conectam  || Fluxo do dado (Origem -> BI) || Onde cada ferramenta entra || Quem consome o quê
+    Visão geral do ecossistema
+    Fluxo do dado (Inicio ao fim)
+    Onde o Estagiário atua
+    Como funciona VPN
+
+Acessos  //Todos os acessos a Pedir
+    Acessos com padrinho
+    Acessos com formulario
+    Acessos por chamado
+    Acessos com DM 
+    Acessos direto
+
+GitHub
+    O que é o GitHub
+    Repositorios
+    Branches
+    Pull Requests
+    Fluxo no dia a dia
+
+Bussines OnTime
+    O que é 
+    Para que usamos
+    O que é dito na Daily
+    
+Cards OPS
+    O que é
+    Para que usamos
+    O que o estagiário faz
+    Boa práticas
+    Erros comuns
+
+Service Now
+    O que é 
+    Para que usamos
+    O que o estagiário faz
+    Boas praticas
+    Erros comuns
+
+Processos e Chamados
+    O que é
+    Para que usamos
+    O que o estagiário faz
+    Onde entra no fluxo
+    Boas praticas
+    Erros comuns
+
+VS Code & Notepad++
+    O que é
+    Para que usamos
+    Quando usamos
+    Quando NÃO usar
+    Diferença entre eles
+    Boas práticas
+    Dica: Se não sabe o impacto, não salve
+
+BrewData
+    O que é
+    Para que usamos
+    Papel no fluxo
+    O que fazer: Consultar, validar, acompanhar
+
+Metabase
+    O que é
+    Quando usar
+    Como acessar quando for impossibilitado de ver
+    Boa praticas
+
+Power BI
+    O que é
+    Onde entra, consumo de dados
+    Pré requisitos
+    Download e a publicação
+    Vizualizar dados
+    Origem
+    Metricas
+
+Arautos da Mudança
+    O que é
+    Para que usamos
+    O que você encontra
+    Organização das pastas
+    Estrutura típica das pastas
+    O que são os arquivos
+    Boa pratica
+    Tutorial: Como acessar, Como navegar até o BI, como baixar BI, Tipos de arquivos
+
+Workspace BI
+    O que é 
+    Diferença com Arautos
+    Quando usar cada um
+    Boa pratica
+    Dica:
+    Tutorial: 
+
+Databricks
+    O que é
+    Para que usamos
+    Onde entra no fluxo de dados
+    O que o estagiário faz
+    Comandos e truques
+    Boas praticas
+    Erros comuns
+    Dica: Confira ambiente e cluster antes de rodar
+    Tutorial: Como trabalhar. Achar notebook, clonar, rodar, testar e consultar.
+    
+Analyses Services
+    O que é
+    Para que usamos
+    Onde entra no fluxo de dados
+    O que o estagiário faz
+    Boa praticas
+    Erros comuns
+    Tutorial: Abrir ferramenta, consultar servidor
+
+Tabular Editor
+    O que é
+    Para que usamos
+    Onde entra no fluxo de dados
+    O que o estagiário faz
+    Boas praticas
+    Erros comuns
+    Dica: Se não sabe o que faz, não salve
+    Tutorial: Como conectar, Como usar, principais funções, partições, identificar linguagem, M expression, vizualizar tabelas
+
+Dax Studio
+    O que é 
+    Para que usamos
+    Onde entra no fluxo
+    O que o estagiário faz
+    Boas praticas
+    Erros comuns
+    Dica: 
+    Tutorial: Como conectar, como selecionar modelos
+
+Visual Studio
+    O que é
+    Para que usamos
+    Onde entra no fluxo
+    O que o estagiário faz
+    Boas praticas
+    Erros comuns
+    Dica: Relacionamentos indicam as tabelas ligadas
+    Tutorial: Como conectar, como ver as propriedades, o que sao tabelas, metricas, relacionamentos, conexão, medidas/contas, como identificar consulta pro SSMS/Outra plataforma
+
+SSMS 
+    O que é
+    Para que usmaos
+    Onde entra no fluxo de dados
+    O que o estagiário faz
+    Boas praticas
+    Erros comuns
+    Dica: Se a consulta demora, talvez buscar pelo top 100 resolva Select top 100 *
+    Tutorial: Como conectar no servidor, quais sao os servidores, como iniciar consulta, Dicas de consulta, comandos, como funciona consultas, como consultar dado do Visual Studio
+
+Azure Data Studio
+    O que é
+    Para que usamos
+    Onde entra no fluxo
+    O que o estagiário faz
+    Boas praticas
+    Erros Comuns
+    Dica: 
+    Tutorial: Como conectar, como faz conexão,         
+
+Boas Práticas
+    Coferir sempre o ambiente
+    Não ter medo de perguntar
+    Ações com rastreablidade: O que foi feito, Onde foi feito, porque foi feito
+    Padronização
+    Documentação: ajuda enquanto aprende
+    Validações: Validar antes de concluir
+    Comunicação: Termos, educação, girias
+    Responsabilidades
+
+Revisão
+    O que você aprendeu ate aqui
+    Voce ja consegue se virar
+    Você não esta sozinha: Sempre tera duvidas, sempre tem o que aprender e alguem pra ajudar
+    Use o APJ no dia a dia
+    Pronto pra começar: Entende o fluxo, conhece as ferramentas, Sabe como agir. Não tenha medo de testar e aprender
+    Dica: Confiança vem de entender o processo, não de saber tudo.

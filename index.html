@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APJ – Acelerador de Produtividade do Jovem</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="imagex/png" href="assets/logotop.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <button onclick="toggleSidebar()">☰ Jornada</button>
+    <h3>APJ – Jornada do Estagiário</h3>
+
+    <!-- Botão Reset (DEV) -->
+    <button id="dev-reset" title="Resetar progresso (DEV)">
+      🔄
+    </button>
+    <button onclick="toggleDarkMode()" id="darkToggle" aria-label="Ativar modo escuro">🌙</button>
+
+  </header>
+
+  <div id="layout">
+
+    <div id="sidebar">
+
+      <!-- Jornada APJ -->
+      <div class="sidebar-section">
+        <div class="sidebar-header" onclick="toggleSection('jornada')">
+          📘 Jornada APJ
+          <span id="arrow-jornada">▶</span>
+        </div>
+
+        <!-- COMEÇA FECHADA -->
+        <div id="jornada-content" class="sidebar-content collapsed"></div>
+      </div>
+
+      <!-- Links Úteis -->
+      <div class="sidebar-section">
+        <div class="sidebar-header" onclick="toggleSection('links')">
+          🔗 Links Úteis
+          <span id="arrow-links">▼</span>
+        </div>
+
+        <!-- COMEÇA ABERTA -->
+        <div id="links-content" class="sidebar-content"></div>
+      </div>
+
+    </div>
+
+    <div id="content">
+      <div id="home">
+
+        <!-- Logo centralizado -->
+        <div class="apj-logo-ring">
+          <img src="assets/logo1.png" alt="" role="presentation">
+        </div>
+
+        <!-- Textos -->
+        <div class="apj-texts">
+          <h1 class="apj-title">APJ – Jornada do Estagiário</h1>
+          <h2 class="apj-subtitle">Acelerador de Produtividade Jovem</h2>
+          <div class="apj-divider"></div>
+          <p class="apj-desc">Inicie sua jornada de aprendizado guiado.</p>
+        </div>
+
+        <!-- Botões -->
+        <div class="apj-buttons">
+          <button onclick="startJourney()">▶ Começar Jornada</button>
+          <button onclick="Help()">❔ Ajuda</button>
+          <button onclick="About()">📋 Sobre o Projeto</button>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div id="modal-img" class="modal-img">
+    <span class="fechar">&times;</span>
+    <img class="modal-conteudo" id="img-expandida">
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
